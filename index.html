@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethiopian Gem Society</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+
+<body>
+  <header>
+    Ethiopian Gem Society
+  </header>
+  <div class="container">
+    <h1>Welcome to the Ethiopian Gem Society!</h1>
+    <p class="welcome-message">We are delighted to have you here. Our society is dedicated to providing the best education on gemstones. Join us and learn from the best in the industry.</p>
+
+    <div class="gemologists">
+      <h2>Meet Our Professional Gemologists</h2>
+      <div class="gemologist">
+        <strong>Dr. Sophia Mengistu</strong> - A world-renowned gemologist with over 20 years of experience in gemstone identification and grading.
+      </div>
+      <div class="gemologist">
+        <strong>Mr. Haile Mekonnen</strong> - An expert in gemstone mining and processing, with extensive knowledge of Ethiopian opals.
+      </div>
+      <div class="gemologist">
+        <strong>Ms. Almaz Abebe</strong> - A specialist in gemstone market trends and valuations, helping clients maximize their investments.
+      </div>
+    </div>
+
+    <div class="payment-section">
+      <h2>Enroll in Our Course</h2>
+      <p>To enroll in our professional gemstone course, please pay 5000 Birr to the following accounts:</p>
+      <ul>
+        <li>Bank of Abyssinia (BOA) Account: <strong>135091324</strong></li>
+        <li>PayPal: <strong>45 USD</strong> to <strong>opaltube5opaltube@gmail.com</strong></li>
+      </ul>
+      <p>After payment, please upload a screenshot as proof of payment:</p>
+      <form id="payment-form">
+        <input type="file" name="payment-proof" id="payment-proof" accept="image/*">
+        <button class="upload-button" type="submit">Upload Payment Proof</button>
+      </form>
+    </div>
+
+    <div class="registration-section" id="registration-section" style="display: none;">
+      <h2>Complete Your Registration</h2>
+      <form id="registration-form">
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone-number">Phone Number:</label>
+        <input type="text" id="phone-number" name="phone-number" required>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+
+        <button class="upload-button" type="submit">Submit Registration</button>
+      </form>
+    </div>
+
+    <div class="admin-section" id="admin-section">
+      <h2>Admin Section</h2>
+      <form id="admin-login-form">
+        <label for="admin-password">Enter Admin Password:</label>
+        <input type="password" id="admin-password" name="admin-password" required>
+        <button class="upload-button" type="submit">Login</button>
+      </form>
+
+      <div id="course-upload-section" style="display: none;">
+        <p>Upload a new course:</p>
+        <form id="course-upload-form">
+          <input type="file" name="course-file" id="course-file" accept=".pdf, .doc, .ppt, .mp4">
+          <button class="upload-button" type="submit">Upload Course</button>
+        </form>
+        <form id="change-password-form">
+          <label for="new-password">Change Password:</label>
+          <input type="password" id="new-password" name="new-password" required>
+          <button class="upload-button" type="submit">Change Password</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    © 2024 Ethiopian Gem Society PLC
+  </footer>
+  <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+
+</html>
